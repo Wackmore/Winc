@@ -1,10 +1,8 @@
 # Do not modify these lines
-__winc_id__ = 'e75b6cd4a7404e3ca76c308566dafb5d'
-__human_name__ = 'hello-world'
+__winc_id__ = '05b076ade4d747878fa925e16e07a2c4'
+__human_name__ = 'print'
 
 # Add your code after this line
-
-print("Hello, world")
 
 print("Wat een goede opdracht, uitgevoerd door een geniale codeur :)")
 print("anything")
