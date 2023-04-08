@@ -7,8 +7,8 @@ __human_name__ = 'strings'
 Scorer_0 = "Ruud Gullit"
 Scorer_1 = "Marco van Basten"
 
-Goal_0 = 32
-Goal_1 = 54
+goal_0 = 32
+goal_1 = 54
 
 First_name_len_0 = Scorer_0.find(" ")
 First_name_len_1 = Scorer_1.find(" ")
@@ -29,12 +29,15 @@ first_leter_1 = Scorer_1[0]
 name_short_0 = f"{first_leter_0}.{last_name_0}"
 name_short_1 = f"{first_leter_1}.{last_name_1}"
 
-report = F"{Scorer_0} scored in the {Goal_0}nd minute \n{Scorer_1} scored in the {Goal_1}th minute"
+# scorers = F"{Scorer_0} scored in the {goal_0}nd minute \n{Scorer_1} scored in the {goal_1}th minute"
+scorers = F"{Scorer_0} {goal_0},\n{Scorer_1} {goal_1}"
+
+chant = F"{First_Name_0}! "*(First_name_len_0-1) + F"{First_Name_0} !"
+
+good_chant = (chant[-1])!=(" ")
 
 
-
-
-print(report)
+print(scorers)
 #print(last_name_len)
 #print(First_Name_0)
 #print(First_Name_1)
@@ -42,7 +45,10 @@ print(report)
 #print(last_name_len_1)
 #print(last_name_0)
 #print(last_name_1)
-print(name_short_0)
-print(name_short_1)
+#print(name_short_0)
+#print(name_short_1)
+#print(chant)
+#print(chant[-1])
 
-# 2 do de chant! & de good chant
+print(good_chant)
+
