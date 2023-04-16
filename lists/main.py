@@ -35,4 +35,3 @@ def remove_toto_albums(albums):
     if "Old Is New" in albums:
         albums.remove("Old Is New")    
     return albums
-
