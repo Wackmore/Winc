@@ -34,10 +34,12 @@ def most_vowels(countries):
         for char in name:
             if char in "aeiouAEIOU":
                 num_vowels = num_vowels +1
-        vowel_per_country = F"{num_vowels}{name}"       
-        vowel_per_country.sort()
+        vowel_per_country = F"{num_vowels}{name}" 
+        vowel_list.append(vowel_per_country)   
+        print(vowel_list)   
         #hiernaa haal ik de nummers uit de data, om de juiste volgorde te krijgen met de orignele namen.
-        print (vowel_per_country)
+        #print (vowel_per_country)
+    vowel_list = vowel_list.sort()
     print (vowel_list)
     return vowel_list
 
